@@ -146,7 +146,7 @@ material-dashboard-angular
 │   │   │   ├── table-list.component.css
 │   │   │   ├── table-list.component.html
 │   │   │   ├── table-list.component.spec.ts
-│   │   │   └── table-list.component.ts
+│   │   │   └── document.component.ts
 │   │   ├── typography
 │   │   │   ├── typography.component.css
 │   │   │   ├── typography.component.html

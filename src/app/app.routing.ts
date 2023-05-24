@@ -5,6 +5,9 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.component';
 
+import {SessionComponent} from "./components/session/session.component";
+import {DocumentComponent} from "./document/document.component";
+
 const routes: Routes =[
   {
     path: '',
@@ -17,7 +20,11 @@ const routes: Routes =[
       path: '',
       loadChildren: () => import('./layouts/admin-layout/admin-layout.module').then(m => m.AdminLayoutModule)
     }]
-  }
+  },
+
+  {path: "/session", component: SessionComponent},
+  {path: "/document", component: DocumentComponent}
+
 ];
 
 @NgModule({
